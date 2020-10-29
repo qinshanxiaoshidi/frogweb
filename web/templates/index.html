@@ -1,10 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>蛙趣</title>
-</head>
-<body>
+{% extends "header.html" %}
+{% block context %}
+        <div id="preloader">
+            <div id="status">
+                <img src="../static/images/qq.png" alt="perloader">
+            </div>
+        </div>
 
-</body>
-</html>
+        <!-- HEADER START -->
+
+        <!-- HEADER END -->
+
+        <!-- BANNER START -->
+
+        <section class="about-page page-banner">
+            <div class="page-banner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title text-center">
+                                <a href="index.html">蛙趣</a>
+                                <span>|</span>
+                                <a href="#">游戏</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <div id="toTop" class="back-to-top text-right">
+            <i class="ti-arrow-up"></i>
+        </div>
+
+        <!-- END -->
+
+{% endblock context %}

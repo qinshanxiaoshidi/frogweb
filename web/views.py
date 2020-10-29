@@ -7,3 +7,11 @@ def index(request):
 
 def login(request):
     return render(request, 'login.html')
+
+
+def change(request):
+    return render(request, 'change.html')
+
+
+def register(request):
+    return render(request, 'register.html')

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+ <title>蛙趣游戏</title>
 <meta charset="UTF-8">
- <title>欢迎登录</title>
  <link href="../static/css/wa.css" rel="stylesheet">
+
 </head>
 <body>
+
 <!--面板-->
 <div id="panel">
  <!--面板的头部-->
@@ -13,6 +15,7 @@
  <h2>欢迎登录蛙趣游戏</h2>
 </div>    <!--面板的主要内容-->
  <div class="panel-content">
+  <div class="ShaShiDi"><img src="../static/images/z-index.jpg"></div>
 <div class="int">
  <label><img src="../static/images/user.png" ></label>
 <input type="text" placeholder="你的手机号/用户名">
@@ -23,24 +26,31 @@
 </div>
 <!--配置信息-->
 <div class="setting">
-<a href="#" class="auto-login">
-<input type="checkbox">下次自动登录
-</a>
- <a href="#" class="forget-pwd" style="text-decoration: none;">忘记密码</a>
+ <a href="../change" class="forget-pwd" style="text-decoration: none;">忘记密码?</a>
 </div>
 <div class="login">
 <button>登录</button>
 </div>
-<div class="reg">还没账号?<a href="#">马上注册</a>
+<div class="reg">还没账号?<a href="../register">马上注册</a>
 </div>
 </div>
 <!--面板的底部-->
  <div class="panel-footer">
 <span>其他方式登录:</span>
-<img src="../static/images/qq.png" onclick="javascript:location.href='#'">
-<img src="../static/images/taobao.png" onclick="javascript:location.href='#'">
-<img src="../static/images/weixin.png" onclick="javascript:location.href='#'">
+<button class="button_Api"><img src="../static/images/qq.png"></button>
+<button class="button_Api"><img src="../static/images/taobao.png"></button>
+<button class="button_Api"><img src="../static/images/weixin.png"></button>
 </div>
 </div>
+
+<script>
+    $(function(){
+        /*公共部分
+         * 导航栏
+         * footer CopyRight
+         */
+        $(".headerpage").load("header.html");
+        $(".footerpage").load("footer.html");
+    });
 </body>
 </html>

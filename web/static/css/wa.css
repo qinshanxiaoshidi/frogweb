@@ -17,7 +17,7 @@ background-color: #F2F2F2;
 /*面板*/
 #panel{
 /*最大的容器距离顶部50个像素*/
-margin-top: 50px;
+margin-top: 200px;
 display: inline-block;
  background-color: white;
  border: 1px solid #dddddd ;
@@ -94,12 +94,13 @@ float: left;
 margin-top: 20px;
 width: 100%;
 height: 33px;
- border: 0;
+ border: #3c6a9e;
 color: white;
+cursor: pointer;
 font-size: 18px;
 margin-bottom: 10px;
  border-radius: 6px;
- background-color: #00ccff;
+ background-color: #1086ff;
 }
 #panel .reg{
  height: 30px;
@@ -122,4 +123,28 @@ line-height: 40px;
 #panel .panel-footer span{
 /*设置文字垂直居中*/
 vertical-align: middle;
+}
+.ShaShiDi{
+width:100%;
+height:100%;
+display:flex;
+position: absolute;
+align-items:center;
+ background-position:center;
+justify-content:center;
+z-index: -1; left: 0; top: 0;
+
+			/*为了效果明显，可以将如下边框打开，看一下效果*/
+			/* border:1px solid black; */
+}
+.ShaShiDi img{
+	width:100%;
+	height:auto;
+}
+.button_Api{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    border-radius:6px;/*适配所有浏览器*/
+    outline: 0;
 }
