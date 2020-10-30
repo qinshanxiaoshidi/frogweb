@@ -309,7 +309,7 @@ li {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #fff;
+  background-color: #ffffff;
   z-index: 99999999;
   width: 100%;
   height: auto;
@@ -345,7 +345,7 @@ li {
   bottom: 0;
   right: 0;
   margin: auto;
-  border-bottom: 2px solid #1086ff;
+  border-bottom: 2px solid #10bbff;
   border-radius: 50%;
   -webkit-animation: rotating 4s linear infinite;
   animation: rotating 4s linear infinite;
@@ -614,7 +614,6 @@ li {
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s,
     background-color 0.3s;
   transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
-  z-index: -1;
 }
 
 .button:hover::before {
@@ -1980,10 +1979,7 @@ form .top-input {
 
 .page-banner {
   background: url(../images/z-index.jpg);
-    background-repeat: no-repeat;
   background-size: contain;
-   background-position: center top;
-
 }
 
 .page-banner-bg {
@@ -1991,7 +1987,6 @@ form .top-input {
   height: auto;
   width: 100%;
   background-color: rgb(0 40 121 / 30%);
-  padding: 10% 0%;
 }
 
 .page-title h2 {

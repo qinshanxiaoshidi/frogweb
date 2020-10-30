@@ -1,21 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
- <title>蛙趣游戏</title>
-<meta charset="UTF-8">
- <link href="../static/css/wa.css" rel="stylesheet">
-
-</head>
-<body>
+{% extends "header.html" %}
+{% block context %}
 
 <!--面板-->
+<div class="zsypm">
+
 <div id="panel">
  <!--面板的头部-->
- <div class="panel-top">
- <h2>欢迎登录蛙趣游戏</h2>
+ <div class="wenzi">
+ <h4>欢迎登录蛙趣游戏</h4>
 </div>    <!--面板的主要内容-->
  <div class="panel-content">
-  <div class="ShaShiDi"><img src="../static/images/z-index.jpg"></div>
 <div class="int">
  <label><img src="../static/images/user.png" ></label>
 <input type="text" placeholder="你的手机号/用户名">
@@ -25,9 +19,9 @@
 <input type="password" placeholder="输入密码">
 </div>
 <!--配置信息-->
-<div class="setting">
- <a href="../change" class="forget-pwd" style="text-decoration: none;">忘记密码?</a>
-</div>
+
+ <a href="../change" class="line1" style="text-decoration:none;">忘记密码?</a>
+
 <div class="login">
 <button>登录</button>
 </div>
@@ -42,15 +36,6 @@
 <button class="button_Api"><img src="../static/images/weixin.png"></button>
 </div>
 </div>
+</div>
 
-<script>
-    $(function(){
-        /*公共部分
-         * 导航栏
-         * footer CopyRight
-         */
-        $(".headerpage").load("header.html");
-        $(".footerpage").load("footer.html");
-    });
-</body>
-</html>
+{% endblock context %}

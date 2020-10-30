@@ -1,10 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
- <title>蛙趣游戏</title>
-</head>
-<body>
+{% extends "header.html" %}
+{% block context %}
 
-</body>
-</html>
+<!--面板-->
+<div class="zsypm">
+
+<div id="panel">
+ <!--面板的头部-->
+ <div class="wenzi">
+ <h4>注册蛙趣平台</h4>
+</div>    <!--面板的主要内容-->
+ <div class="panel-content">
+<div class="int">
+ <label><img src="../static/images/user.png" ></label>
+<input type="text" placeholder="用户名">
+ </div>
+<div class="int">
+ <label><img src="../static/images/user.png" ></label>
+<input type="text" placeholder="手机号">
+ </div>
+<div class="int">
+<label><img src="../static/images/passwd.png" ></label>
+<input type="password" placeholder="输入密码">
+</div>
+<div class="int">
+<label><img src="../static/images/passwd.png" ></label>
+<input type="password" placeholder="再次输入密码">
+</div>
+
+<!--配置信息-->
+
+
+
+<div class="login">
+<button>注册</button>
+</div>
+</div>
+<!--面板的底部-->
+ <div class="panel-footer">
+<span>其他方式登录:</span>
+<button class="button_Api"><img src="../static/images/qq.png"></button>
+<button class="button_Api"><img src="../static/images/taobao.png"></button>
+<button class="button_Api"><img src="../static/images/weixin.png"></button>
+</div>
+</div>
+</div>
+
+{% endblock context %}

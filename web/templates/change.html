@@ -1,10 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-  <title>蛙趣游戏</title>
-</head>
-<body>
-404
-</body>
-</html>
+{% extends "header.html" %}
+{% block context %}
+<div class="zsypm">
+    <div class="juzhong">
+        <div class="wenzi">
+            <h4>重置密码</h4>
+        </div>
+            <span style="width:100px;margin-top:10px;">
+            <i></i><p class="ack"></p></span>
+        暂时不支持重置密码，如忘记请联系管理员！
+        <div class="int">
+            <span style="width:100px;margin-top:10px;">
+            <i></i><p class="ack"></p></span>
+            <input type="text"  placeholder="手机号 / 邮箱">
+            <span style="width:100px;margin-top:10px;">
+            <i></i><p class="ack"></p></span>
+            <input class="button_api" type="button" value="重置密码" onclick="MsgBox()">
+        </div>
+    </div>
+</div>
+
+{% endblock context %}

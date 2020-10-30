@@ -15,3 +15,7 @@ def change(request):
 
 def register(request):
     return render(request, 'register.html')
+
+
+def Journalism(request):
+    return render(request, 'Journalism.html')

@@ -83,6 +83,7 @@
     
     .nav-item {
         padding: 12px 13px;
+        float: right;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-left: 0;
