@@ -25,5 +25,10 @@ urlpatterns = [
     path('change/', views.change, name='change'),
     path('register/', views.register, name='register'),
     path('Journalism/', views.Journalism, name='Journalism'),
-
+    path('gyzf/', views.gyzf, name='gyzf'),
+    path('zwz/', views.zwz, name='zwz'),
+    path('mrt/', views.mrt, name='mrt'),
+    path('jlb/', views.jlb, name='jlb'),
+    path('luntan/', views.luntan, name='luntan'),
+    path('develop/', views.develop, name='develop'),
 ]

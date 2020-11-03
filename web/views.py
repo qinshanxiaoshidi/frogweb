@@ -19,3 +19,21 @@ def register(request):
 
 def Journalism(request):
     return render(request, 'Journalism.html')
+
+def gyzf(request):
+    return render(request, 'gyzf.html')
+
+def zwz(request):
+    return render(request, 'zwz.html')
+
+def jlb(request):
+    return render(request, 'jlb.html')
+
+def mrt(request):
+    return render(request, 'mrt.html')
+
+def luntan(request):
+    return render(request, 'luntan.html')
+
+def develop(request):
+    return render(request, 'develop.html')

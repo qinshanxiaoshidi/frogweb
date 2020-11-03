@@ -138,16 +138,99 @@ z-index: -2; left: 0; top: 0;
 .line1{
       float: right;
 }
+.zsypm1{
+ width:100%;
+ height:900px;
+ border:1px solid #1086ff;
+    background: url(../images/beijin.jpg);
+    z-index: -10;
+    background-size:100%;
+}
+.zsypm1-bg {
+  height: 100%;
+  width: 100%;
+    z-index: 10;
+  background: rgba(47, 47, 47, 0.7);
+}
+
 .zsypm{
  width:100%;
- height:700px;
+ height:800px;
  border:3px solid #1086ff;
      display: flex;
     /*实现垂直居中*/
     align-items: center;
     /*实现水平居中*/
     justify-content: center;
-    background: url(../images/z-index.jpg);background-size:contain;
+    background: url(../images/z-index.jpg);
+    z-index: -10;
+    background-size:100%;
+
+}
+.zsypm-bg {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 40, 121,0.4);
+}
+.gyzf {
+ width:100%;
+ height:700px;
+ border:3px solid #ff6700;
+     display: flex;
+    /*实现垂直居中*/
+    align-items: center;
+    /*实现水平居中*/
+    justify-content: center;
+    z-index: -10;
+    background-size:100%;
+
+}
+.gyzf-z {
+ width:50%;
+ height:700px;
+     display: flex;
+    /*实现垂直居中*/
+    align-items: center;
+    /*实现水平居中*/
+    justify-content: center;
+    background-size:100%;
+    z-index: -10;
+
+}
+.gyzf-y {
+ width:50%;
+ height:700px;
+     display: flex;
+    /*实现垂直居中*/
+    align-items: center;
+    /*实现水平居中*/
+    justify-content: center;
+    background-size:100%;
+    z-index: -10;
+
+}
+.vs {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+	margin-top:-9px;
+}
+.zwz {
+ width:100%;
+ height:700px;
+ border:3px solid #009a6c;
+     display: flex;
+    /*实现垂直居中*/
+    align-items: center;
+    /*实现水平居中*/
+    justify-content: center;
+    z-index: -10;
+    background-size:100%;
+
 }
 .juzhong{
 background-color: white;
@@ -178,8 +261,17 @@ box-shadow: 0 0 10px #999;
 display: flex;
 justify-content: center;
 font-size: 39px;
-border-bottom: 1px solid #c4c4c4;
+color: #ffffff;
+border-bottom: 1px solid #a0a0a0;
 width: 220px;
+margin:0 auto;
+}
+.yinwen{
+display: flex;
+justify-content: center;
+font-size: 39px;
+color: #ffffff;
+width: 270px;
 margin:0 auto;
 }
 .content{
@@ -218,3 +310,31 @@ input::-webkit-input-placeholder {
     color: #004974;
     text-decoration: none;
 }
+
+.zixun01{
+        width:500px;
+        height:600px;
+        border:1px solid #ffffff;
+        display: table-cell;
+        vertical-align: middle;
+}
+.zixun01 img {
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        margin: auto;
+}
+
+.kongbai {
+        width:50px;
+        height:6px;
+        display: table-cell;
+        vertical-align: middle;
+}
+.xiaokongbai {
+        width:50px;
+        height:120px;
+        display: table-cell;
+        vertical-align: middle;
+}
+

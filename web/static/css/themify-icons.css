@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'themify';
-	src:url('../fonts/themify.eot?-fvbane');
-	src:url('../fonts/themify.eot?#iefix-fvbane') format('embedded-opentype'),
-		url('../../../../模板/assets/fonts/themify.woff?-fvbane') format('woff'),
-		url('../fonts/themify.ttf?-fvbane') format('truetype'),
-		url('../fonts/themify.svg?-fvbane#themify') format('svg');
+	src:url('../images/webfonts/themify.eot?-fvbane');
+	src:url('../static/images/themify.eot?#iefix-fvbane') format('embedded-opentype'),
+		url('../images/webfonts/themify.woff?-fvbane') format('woff'),
+		url('../static/images/themify.ttf?-fvbane') format('truetype'),
+		url('../images/themify.svg?-fvbane#themify') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
